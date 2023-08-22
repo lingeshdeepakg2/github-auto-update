@@ -2,7 +2,7 @@
 /**
  * Plugin Name: GitHub Auto Update
  * Description: Automatically updates WordPress plugins from GitHub repositories.
- * Version: 1.0
+ * Version: 1.1
  */
 
 add_filter('plugins_api', 'github_auto_update_plugins_api', 10, 3);
